@@ -1,0 +1,22 @@
+header {
+    .desktop-nav {
+
+        a:link::after,a:visited::after{
+
+            display: block;
+            content: "";
+            width: 0%;
+            height: 0.2rem;
+            background-color: coral;
+            transition: all 0.3s;
+
+        }
+
+        a:hover::after,
+        a:active::after {
+
+            width: 100%;
+           
+        }
+    }
+}
