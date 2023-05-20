@@ -51,3 +51,15 @@ body {
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
 }
+
+.top-text {
+  background: linear-gradient(to right, #8e2de2, #550ce7);
+  transition: all 0.3s;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.top-text:hover {
+  background: linear-gradient(to right, #a267d6, #8660d3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

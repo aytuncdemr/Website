@@ -29,8 +29,20 @@ body {
     }
 }
 
-.mobile-overlay{
-
+.mobile-overlay {
     backdrop-filter: blur(10px);
+}
 
+.top-text {
+    background: linear-gradient(to right, #8e2de2, #550ce7);
+    transition: all 0.3s;
+
+    &:hover {
+        background: linear-gradient(to right, #a267d6, #8660d3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
