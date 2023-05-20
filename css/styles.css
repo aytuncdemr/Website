@@ -1,11 +1,12 @@
 @import url("./tailwindoutput.css");
-header .desktop-nav a:link::after, header .desktop-nav a:visited::after {
+header .desktop-nav a:link::after,
+header .desktop-nav a:visited::after {
   display: block;
   content: "";
   width: 0%;
   height: 0.2rem;
   background-color: coral;
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 header .desktop-nav a:hover::after,
 header .desktop-nav a:active::after {
