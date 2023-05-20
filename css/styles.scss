@@ -15,14 +15,10 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Roboto", sans-serif;
-   
-    
 }
 
-.cpp-projects-top-text{
-
-    h1::after{
-
+.cpp-projects-top-text {
+    h1::after {
         display: block;
         content: "";
         width: 100%;
@@ -30,7 +26,11 @@ body {
         background-color: coral;
         border-radius: 10px;
         margin-top: 0.1rem;
-
     }
+}
+
+.mobile-overlay{
+
+    backdrop-filter: blur(10px);
 
 }
