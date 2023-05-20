@@ -28,13 +28,15 @@
             type="image/x-icon"
         />
 
+        <script src="./js/script.js" defer></script>
+
         <title>Aytunç Demir ✨</title>
     </head>
 
     <body class="bg-[#222]">
         <header class="py-7 px-4 md:px-8 2xl:px-12">
             <div
-                class="header-contanier text-4xl text-white flex justify-between items-center"
+                class="header-contanier text-4xl md:text-3xl text-white flex justify-between items-center"
             >
                 <a href="#">A ~ FE</a>
 
@@ -44,10 +46,10 @@
 
                 <nav class="desktop-nav hidden md:block">
                     <ul class="flex items-center gap-4">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#about-section">About</a></li>
+                        <li><a href="#skills-section">Skills</a></li>
+                        <li><a href="#projects-section">Projects</a></li>
+                        <li><a href="#contact-footer">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -65,7 +67,7 @@
                             <h1
                                 class="text-5xl sm:text-6xl md:text-7xl xl:text-8xl"
                             >
-                                <span class="text-[coral]">Aytunç Demir</span>,
+                                <a target="_blank" href="https://www.linkedin.com/in/aytun%C3%A7-demir-70339723a/" class="text-[coral]">Aytunç Demir</a>,
                                 Frontend Developer
                             </h1>
                         </div>
@@ -77,7 +79,7 @@
                                 class="text-2xl md:text-3xl lg:text-4xl text-center text-white"
                             >
                                 Hello, I'm
-                                <span class="text-[coral]">Aytunç Demir</span>
+                                <a target="_blank" href="https://www.linkedin.com/in/aytun%C3%A7-demir-70339723a/" class="text-[coral]">Aytunç Demir</a>
                                 , a front-end software engineer. Welcome to my
                                 website! Explore my projects and let's
                                 collaborate on web solutions.
@@ -91,11 +93,11 @@
                 </div>
             </section>
 
-            <section class="about-section py-64 px-4">
+            <section id="about-section" class="about-section py-64 px-4">
                 <div class="about-container">
                     <div class="about-top-text text-center mb-16">
                         <h1
-                            class="text-6xl md:text-7xl 2xl:text-8xl lg:mb-32 text-white"
+                            class="text-5xl md:text-6xl 2xl:text-7xl lg:mb-32 text-white"
                         >
                             About Me
                         </h1>
@@ -107,22 +109,27 @@
                         <p class="text-2xl md:text-3xl lg:text-4xl">
                             I specialize in creating visually appealing and
                             user-friendly
-                            <span class="text-[coral]">websites</span>. I am
-                            passionate about leveraging the power of technology
-                            to deliver seamless online experiences. Feel free to
-                            explore my
-                            <span class="text-[coral]">projects</span> and learn
-                            more about my work.
+                            <a
+                                href="#projects-section"
+                                class="text-[coral]"
+                                >websites</a
+                            >. I am passionate about leveraging the power of
+                            technology to deliver seamless online experiences.
+                            Feel free to explore my
+                            <a href="#projects-section" class="text-[coral]"
+                                >projects</a
+                            >
+                            and learn more about my work.
                         </p>
                     </div>
                 </div>
             </section>
 
-            <section class="skills-section py-48 px-4">
+            <section id="skills-section" class="skills-section py-48 px-4">
                 <div class="skills-container">
                     <div class="skills-top-text text-center mb-48">
                         <h1
-                            class="text-6xl md:text-7xl 2xl:text-8xl lg:mb-32 text-white"
+                            class="text-5xl md:text-6xl 2xl:text-7xl lg:mb-32 text-white"
                         >
                             My Skills
                         </h1>
@@ -251,28 +258,34 @@
                 </div>
             </section>
 
-            <section class="projects-section py-32 px-4">
+            <section id="projects-section" class="projects-section py-32 px-4">
                 <div class="projects-container">
-                    <div class="projects-top-text text-white text-center mb-48 ">
+                    <div class="projects-top-text text-white text-center mb-48">
                         <h1
-                        class="text-6xl md:text-7xl 2xl:text-8xl lg:mb-32 text-white"
-                    >
-                        My Projects
-                    </h1>
+                            class="text-5xl md:text-6xl 2xl:text-7xl lg:mb-32 text-white"
+                        >
+                            My Projects
+                        </h1>
                     </div>
 
                     <div class="js-projects mb-36">
-                        <div class="cpp-projects-top-text text-white mb-16 2xl:mb-24 ">
+                        <div
+                            class="cpp-projects-top-text text-white mb-16 2xl:mb-24"
+                        >
                             <div class="inline-block">
-                                <h1 class="text-4xl md:text-5xl 2xl:text-6xl">Web Projects</h1>
+                                <h1 class="text-4xl md:text-5xl 2xl:text-6xl">
+                                    Web Projects
+                                </h1>
                             </div>
                         </div>
 
-                        <div class="projects flex flex-col items-center md:flex-row md:justify-center gap-6 md:gap-16">
+                        <div
+                            class="projects flex flex-col items-center md:flex-row md:justify-center gap-6 md:gap-16"
+                        >
                             <div
                                 class="project py-16 w-full max-w-[40rem] rounded-lg px-4 border-2 border-[coral] text-white text-center"
                             >
-                                <h2 class="text-4xl ">
+                                <h2 class="text-4xl">
                                     Ownership Cost Simulator
                                 </h2>
                             </div>
@@ -285,13 +298,19 @@
                     </div>
 
                     <div class="cpp-projects">
-                        <div class="cpp-projects-top-text text-white mb-16  2xl:mb-24">
+                        <div
+                            class="cpp-projects-top-text text-white mb-16 2xl:mb-24"
+                        >
                             <div class="inline-block">
-                                <h1 class="text-4xl md:text-5xl 2xl:text-6xl">C\C++ Projects</h1>
+                                <h1 class="text-4xl md:text-5xl 2xl:text-6xl">
+                                    C\C++ Projects
+                                </h1>
                             </div>
                         </div>
 
-                        <div class="projects flex flex-col items-center md:grid md:grid-cols-2 md:justify-items-center 2xl:grid-cols-3 gap-6 md:gap-16">
+                        <div
+                            class="projects flex flex-col items-center md:grid md:grid-cols-2 md:justify-items-center 2xl:grid-cols-3 gap-6 md:gap-16"
+                        >
                             <div
                                 class="project py-16 w-full max-w-[40rem] rounded-lg px-4 border-2 border-[coral] text-white text-center"
                             >
@@ -322,16 +341,20 @@
                 </div>
             </section>
 
-            <section class="contact-section py-48 px-4">
+            <footer id="contact-footer" class="contact-footer py-8 px-4">
                 <div class="contact-container">
                     <div class="contact-top-text text-white text-center mb-16">
-                        <h1 class="text-5xl md:text-6xl 2xl:text-7xl lg:mb-32 text-white">Contact Me</h1>
+                        <h1
+                            class="text-5xl md:text-6xl 2xl:text-7xl lg:mb-32 text-white"
+                        >
+                            Contact Me
+                        </h1>
                     </div>
 
                     <div
-                        class="contact-body-text flex flex-col gap-8 text-[coral]"
+                        class="contact-body-text flex flex-col gap-8 text-[coral] text-center"
                     >
-                        <div class="contact-info flex flex-col gap-4">
+                        <div class="contact-info flex flex-col gap-4 text-3xl">
                             <a href="mailto:aytunc04@hotmail.com"
                                 >aytunc04@hotmail.com</a
                             >
@@ -342,18 +365,18 @@
                             class="contact-icons flex items-center gap-4 justify-center"
                         >
                             <a href="https://github.com/aytuncdemr">
-                                <i class="fa-brands fa-github text-5xl"></i>
+                                <i class="fa-brands fa-github text-6xl"></i>
                             </a>
 
                             <a
                                 href="https://www.linkedin.com/in/aytun%C3%A7-demir-70339723a/"
                             >
-                                <i class="fa-brands fa-linkedin text-5xl"></i>
+                                <i class="fa-brands fa-linkedin text-6xl"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-            </section>
+            </footer>
         </main>
     </body>
 </html>
