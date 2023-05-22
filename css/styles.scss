@@ -1,4 +1,5 @@
 @use "./global";
+@use "./animation";
 @import url("./tailwindoutput.css");
 
 * {
@@ -47,4 +48,15 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.hero-img {
+
+    img{
+
+        // animation: name duration timing-function delay iteration-count direction fill-mode;
+        animation: img_opener 4.2s;
+
+    }
+
 }
