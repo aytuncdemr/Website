@@ -24,6 +24,8 @@ header {
 
         &:hover,
         &:active {
+            border-radius: 20px;
+            color: black;
             cursor: pointer;
             background-color: rgb(214, 106, 67);
         }

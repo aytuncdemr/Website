@@ -17,6 +17,8 @@ header .desktop-nav a:active::after {
   transition: all 0.3s;
 }
 .projects-section .project:hover, .projects-section .project:active {
+  border-radius: 20px;
+  color: black;
   cursor: pointer;
   background-color: rgb(214, 106, 67);
 }
