@@ -29,7 +29,7 @@ document.querySelectorAll(".mobile-nav a").forEach((elem) => {
     });
 });
 
-document.querySelectorAll(".project")").forEach((elem) => {
+document.querySelectorAll(".project").forEach((elem) => {
     elem.addEventListener("click", function () {
         const link = this.querySelector("a").href;
         window.open(link);
