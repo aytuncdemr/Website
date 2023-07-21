@@ -23,12 +23,6 @@ function close_mobile_nav() {
     document.body.style.overflow = "initial";
 }
 
-document.querySelectorAll(".project").forEach((elem) => {
-    elem.addEventListener("click", function () {
-        window.open("https://github.com/aytuncdemr", "_blank");
-    });
-});
-
 document.querySelectorAll(".mobile-nav a").forEach((elem) => {
     elem.addEventListener("click", function () {
         close_mobile_nav();
